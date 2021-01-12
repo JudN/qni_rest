@@ -1,0 +1,90 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/
+
+
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "firstname":"John",
+    "lastname":"Doe"
+}
+
+###
+
+DELETE http://localhost:3000/users/
+
+
+###
+
+PATCH http://localhost:3000/users/5ffc51e997a79e1fecb1120f
+Content-Type: application/json
+
+{
+    "lastname":"Michael"
+}
+
+###
+
+PUT http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "firstname":"James",
+    "lastname":"Smith"
+}
+
+###
+
+GET http://localhost:3000/therapists/
+
+
+
+###
+
+POST http://localhost:3000/therapists
+Content-Type: application/json
+
+{
+    "firstname":"jud1",
+    "lastname":"dude",
+    "id":"lkku6oi",
+    "tz_number":"8768716876876",
+    "profession":"gardenner",
+    "institute":"kfar azar",
+    "login":"mooshon",
+    "password":"password"
+}
+
+###
+
+PUT http://localhost:3000/therapists/5ffc5a456de19e2f6804a371
+Content-Type: application/json
+
+{
+    "firstname":"James"
+}
+
+
+###
+
+PATCH http://localhost:3000/therapists/5ffc5a456de19e2f6804a371
+Content-Type: application/json
+
+{
+    "firstname":"אבי"
+}
+
+###
+
+
+DELETE http://localhost:3000/therapists/5ffc5a3a6de19e2f6804a370
+
+
+###
